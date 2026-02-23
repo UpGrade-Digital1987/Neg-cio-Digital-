@@ -1,0 +1,515 @@
+<!doctype html>
+<html lang="pt-BR" class="h-full">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oferta Especial - Alisson Reis</title>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script src="/_sdk/element_sdk.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+  <style>
+    * { font-family: 'Poppins', sans-serif; }
+    
+    @keyframes pulse-glow {
+      0%, 100% { box-shadow: 0 0 20px rgba(34, 197, 94, 0.6); }
+      50% { box-shadow: 0 0 40px rgba(34, 197, 94, 0.9); }
+    }
+    
+    @keyframes slide-in-right {
+      from { transform: translateX(100%); opacity: 0; }
+      to { transform: translateX(0); opacity: 1; }
+    }
+    
+    @keyframes slide-up {
+      from { transform: translateY(100%); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+    
+    @keyframes bounce-subtle {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+    }
+    
+    @keyframes fade-in {
+      from { opacity: 0; transform: scale(0.95); }
+      to { opacity: 1; transform: scale(1); }
+    }
+    
+    @keyframes countdown-pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    
+    .btn-cta {
+      animation: pulse-glow 2s ease-in-out infinite;
+    }
+    
+    .notification-popup {
+      animation: slide-in-right 0.5s ease-out forwards;
+    }
+    
+    .bottom-banner {
+      animation: slide-up 0.5s ease-out forwards;
+    }
+    
+    .bounce-icon {
+      animation: bounce-subtle 2s ease-in-out infinite;
+    }
+    
+    .modal-content {
+      animation: fade-in 0.3s ease-out forwards;
+    }
+    
+    .countdown-item {
+      animation: countdown-pulse 1s ease-in-out infinite;
+    }
+    
+    .gradient-bg {
+      background: linear-gradient(135deg, #0f0f23 0%, #1a1a3e 50%, #0d0d1a 100%);
+    }
+    
+    .card-glass {
+      background: rgba(255, 255, 255, 0.03);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    
+    .text-gradient {
+      background: linear-gradient(90deg, #22c55e, #4ade80);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+  </style>
+  <style>body { box-sizing: border-box; }</style>
+  <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
+ </head>
+ <body class="h-full">
+  <div id="app-wrapper" class="w-full h-full gradient-bg text-white overflow-auto"><!-- Top Urgency Banner -->
+   <div id="top-banner" class="bg-gradient-to-r from-red-600 via-red-500 to-orange-500 py-2 px-4 text-center">
+    <p class="text-sm md:text-base font-semibold flex items-center justify-center gap-2 flex-wrap"><span class="bounce-icon">🔥</span> <span>OFERTA POR TEMPO LIMITADO!</span> <span class="bg-white text-red-600 px-2 py-0.5 rounded font-bold text-xs">ÚLTIMAS VAGAS</span></p>
+   </div><!-- Main Content -->
+   <main class="max-w-4xl mx-auto px-4 py-8 md:py-12"><!-- Hero Section -->
+    <section class="text-center mb-10">
+     <div class="inline-block bg-green-500/20 border border-green-500/50 rounded-full px-4 py-1 mb-6"><span class="text-green-400 text-sm font-medium">✨ Método Comprovado</span>
+     </div>
+     <h1 id="main-title" class="text-3xl md:text-5xl font-black mb-4 leading-tight">Transforme Sua Vida com o <span class="text-gradient">Método Exclusivo</span></h1>
+     <p class="text-gray-300 text-lg md:text-xl max-w-2xl mx-auto">Descubra o passo a passo que já mudou a vida de centenas de pessoas</p>
+    </section><!-- Video/Image Placeholder -->
+    <section class="mb-10">
+     <div class="card-glass rounded-2xl p-2 md:p-4">
+      <div class="bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl aspect-video flex items-center justify-center relative overflow-hidden">
+       <div class="absolute inset-0 bg-gradient-to-br from-green-500/10 to-transparent"></div>
+       <div class="text-center z-10">
+        <div class="w-20 h-20 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-4 cursor-pointer hover:scale-110 transition-transform">
+         <svg class="w-8 h-8 text-white ml-1" fill="currentColor" viewbox="0 0 24 24"><path d="M8 5v14l11-7z" />
+         </svg>
+        </div>
+        <p class="text-gray-400">Assista o vídeo completo</p>
+       </div>
+      </div>
+     </div>
+    </section><!-- Benefits Section -->
+    <section class="mb-10">
+     <h2 class="text-2xl md:text-3xl font-bold text-center mb-8">O Que Você Vai Receber</h2>
+     <div class="grid md:grid-cols-3 gap-4">
+      <div class="card-glass rounded-xl p-6 text-center hover:border-green-500/50 transition-colors">
+       <div class="text-4xl mb-4">
+        📚
+       </div>
+       <h3 class="font-bold mb-2">Conteúdo Completo</h3>
+       <p class="text-gray-400 text-sm">Material exclusivo e atualizado</p>
+      </div>
+      <div class="card-glass rounded-xl p-6 text-center hover:border-green-500/50 transition-colors">
+       <div class="text-4xl mb-4">
+        🎯
+       </div>
+       <h3 class="font-bold mb-2">Método Prático</h3>
+       <p class="text-gray-400 text-sm">Passo a passo detalhado</p>
+      </div>
+      <div class="card-glass rounded-xl p-6 text-center hover:border-green-500/50 transition-colors">
+       <div class="text-4xl mb-4">
+        💬
+       </div>
+       <h3 class="font-bold mb-2">Suporte Dedicado</h3>
+       <p class="text-gray-400 text-sm">Tire suas dúvidas rapidamente</p>
+      </div>
+     </div>
+    </section><!-- Social Proof Section -->
+    <section class="mb-10">
+     <h2 class="text-2xl md:text-3xl font-bold text-center mb-8">Depoimentos de Alunos</h2>
+     <div class="grid md:grid-cols-2 gap-4">
+      <div class="card-glass rounded-xl p-6">
+       <div class="flex items-center gap-3 mb-4">
+        <div class="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-500 rounded-full flex items-center justify-center font-bold">
+         MF
+        </div>
+        <div>
+         <p class="font-semibold">Maria Fernanda</p>
+         <div class="flex text-yellow-400 text-sm">
+          ⭐⭐⭐⭐⭐
+         </div>
+        </div>
+       </div>
+       <p class="text-gray-300 italic">"Incrível! Consegui resultados em apenas 2 semanas seguindo o método. Super recomendo!"</p>
+      </div>
+      <div class="card-glass rounded-xl p-6">
+       <div class="flex items-center gap-3 mb-4">
+        <div class="w-12 h-12 bg-gradient-to-br from-green-500 to-teal-500 rounded-full flex items-center justify-center font-bold">
+         JS
+        </div>
+        <div>
+         <p class="font-semibold">João Silva</p>
+         <div class="flex text-yellow-400 text-sm">
+          ⭐⭐⭐⭐⭐
+         </div>
+        </div>
+       </div>
+       <p class="text-gray-300 italic">"O melhor investimento que já fiz. O conteúdo é muito didático e prático!"</p>
+      </div>
+      <div class="card-glass rounded-xl p-6">
+       <div class="flex items-center gap-3 mb-4">
+        <div class="w-12 h-12 bg-gradient-to-br from-pink-500 to-rose-500 rounded-full flex items-center justify-center font-bold">
+         AC
+        </div>
+        <div>
+         <p class="font-semibold">Ana Carolina</p>
+         <div class="flex text-yellow-400 text-sm">
+          ⭐⭐⭐⭐⭐
+         </div>
+        </div>
+       </div>
+       <p class="text-gray-300 italic">"Mudou completamente minha perspectiva. O Alisson explica muito bem!"</p>
+      </div>
+      <div class="card-glass rounded-xl p-6">
+       <div class="flex items-center gap-3 mb-4">
+        <div class="w-12 h-12 bg-gradient-to-br from-orange-500 to-amber-500 rounded-full flex items-center justify-center font-bold">
+         RP
+        </div>
+        <div>
+         <p class="font-semibold">Ricardo Pereira</p>
+         <div class="flex text-yellow-400 text-sm">
+          ⭐⭐⭐⭐⭐
+         </div>
+        </div>
+       </div>
+       <p class="text-gray-300 italic">"Já testei vários cursos, mas esse é diferente. Resultados reais!"</p>
+      </div>
+     </div><!-- Stats -->
+     <div class="grid grid-cols-3 gap-4 mt-8">
+      <div class="text-center">
+       <p class="text-3xl md:text-4xl font-black text-gradient">500+</p>
+       <p class="text-gray-400 text-sm">Alunos</p>
+      </div>
+      <div class="text-center">
+       <p class="text-3xl md:text-4xl font-black text-gradient">98%</p>
+       <p class="text-gray-400 text-sm">Satisfação</p>
+      </div>
+      <div class="text-center">
+       <p class="text-3xl md:text-4xl font-black text-gradient">4.9</p>
+       <p class="text-gray-400 text-sm">Avaliação</p>
+      </div>
+     </div>
+    </section><!-- Producer Section -->
+    <section class="mb-10">
+     <div class="card-glass rounded-2xl p-6 md:p-8">
+      <div class="flex flex-col md:flex-row items-center gap-6">
+       <div class="w-32 h-32 bg-gradient-to-br from-green-400 to-emerald-600 rounded-full flex items-center justify-center text-4xl font-black shrink-0">
+        AR
+       </div>
+       <div class="text-center md:text-left">
+        <h3 class="text-2xl font-bold mb-2" id="producer-name">Alisson Reis</h3>
+        <p class="text-green-400 font-medium mb-3">Especialista &amp; Mentor</p>
+        <p class="text-gray-300">Alisson Reis é um profissional dedicado que já ajudou centenas de pessoas a alcançarem seus objetivos. Com anos de experiência e uma metodologia comprovada, ele desenvolveu um sistema único que entrega resultados reais para seus alunos. Sua missão é transformar vidas através do conhecimento prático e aplicável.</p>
+       </div>
+      </div>
+     </div>
+    </section><!-- Guarantee Section -->
+    <section class="mb-10">
+     <div class="bg-gradient-to-r from-green-900/50 to-emerald-900/50 border border-green-500/30 rounded-2xl p-6 md:p-8 text-center">
+      <div class="text-6xl mb-4">
+       🛡️
+      </div>
+      <h3 class="text-2xl font-bold mb-2">Garantia Incondicional de <span id="guarantee-days" class="text-green-400">7 Dias</span></h3>
+      <p class="text-gray-300 max-w-xl mx-auto">Se dentro de 7 dias você não ficar satisfeito com o conteúdo, devolvemos 100% do seu investimento. Sem perguntas, sem burocracia. O risco é todo nosso!</p>
+     </div>
+    </section><!-- Pricing Section -->
+    <section class="mb-10" id="pricing-section">
+     <div class="card-glass rounded-2xl p-6 md:p-8 border-2 border-green-500/50 relative overflow-hidden">
+      <div class="absolute top-0 right-0 bg-green-500 text-white text-xs font-bold px-4 py-1 rounded-bl-lg">
+       MAIS VENDIDO
+      </div>
+      <div class="text-center mb-6">
+       <p class="text-gray-400 line-through text-lg">De R$ 197,00</p>
+       <p class="text-sm text-green-400 font-medium mb-2">🔥 Desconto especial ativo</p>
+      </div>
+      <div class="text-center mb-6">
+       <p class="text-gray-300 mb-1">Por apenas</p>
+       <p class="text-4xl md:text-5xl font-black mb-2" id="price-installment">3x de <span class="text-green-400">R$ 9,64</span></p>
+       <p class="text-gray-400">ou <span class="font-bold text-white" id="price-full">R$ 27,00</span> à vista</p>
+      </div><a href="https://pay.hotmart.com/I96345930F" target="_blank" rel="noopener noreferrer" class="btn-cta block w-full bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white text-xl font-bold py-4 px-8 rounded-xl text-center transition-all transform hover:scale-105"> QUERO GARANTIR MINHA VAGA </a>
+      <div class="flex items-center justify-center gap-4 mt-4 text-sm text-gray-400 flex-wrap"><span class="flex items-center gap-1">🔒 Compra Segura</span> <span class="flex items-center gap-1">💳 Cartão ou PIX</span> <span class="flex items-center gap-1">⚡ Acesso Imediato</span>
+      </div>
+     </div>
+    </section><!-- FAQ Section -->
+    <section class="mb-10">
+     <h2 class="text-2xl md:text-3xl font-bold text-center mb-8">Perguntas Frequentes</h2>
+     <div class="space-y-4">
+      <details class="card-glass rounded-xl group"><summary class="p-4 cursor-pointer font-semibold flex justify-between items-center"> Como funciona o acesso? <span class="text-green-400 group-open:rotate-180 transition-transform">▼</span> </summary>
+       <p class="px-4 pb-4 text-gray-300">Após a confirmação do pagamento, você receberá o acesso imediato por e-mail com todas as instruções.</p>
+      </details>
+      <details class="card-glass rounded-xl group"><summary class="p-4 cursor-pointer font-semibold flex justify-between items-center"> Por quanto tempo terei acesso? <span class="text-green-400 group-open:rotate-180 transition-transform">▼</span> </summary>
+       <p class="px-4 pb-4 text-gray-300">O acesso é vitalício! Uma vez adquirido, você pode acessar o conteúdo quando e quantas vezes quiser.</p>
+      </details>
+      <details class="card-glass rounded-xl group"><summary class="p-4 cursor-pointer font-semibold flex justify-between items-center"> O pagamento é seguro? <span class="text-green-400 group-open:rotate-180 transition-transform">▼</span> </summary>
+       <p class="px-4 pb-4 text-gray-300">Sim! Utilizamos a plataforma Hotmart, líder em produtos digitais, com criptografia de ponta e proteção total dos seus dados.</p>
+      </details>
+     </div>
+    </section>
+   </main><!-- Footer -->
+   <footer class="border-t border-white/10 py-6 px-4 text-center text-gray-500 text-sm">
+    <p>© 2024 Alisson Reis. Todos os direitos reservados.</p>
+    <p class="mt-2">Este produto é comercializado com apoio da Hotmart.</p>
+   </footer><!-- Purchase Notification Popup -->
+   <div id="purchase-popup" class="fixed top-20 right-4 z-50 hidden">
+    <div class="notification-popup card-glass rounded-xl p-4 max-w-xs border border-green-500/30">
+     <div class="flex items-center gap-3">
+      <div class="w-10 h-10 bg-green-500/20 rounded-full flex items-center justify-center text-xl">
+       ✅
+      </div>
+      <div>
+       <p class="font-semibold text-sm" id="popup-name">Alguém</p>
+       <p class="text-gray-400 text-xs">acabou de comprar!</p>
+      </div>
+     </div>
+    </div>
+   </div><!-- Bottom Sticky Banner -->
+   <div id="bottom-banner" class="fixed bottom-0 left-0 right-0 z-40 hidden">
+    <div class="bottom-banner bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 border-t border-green-500/30 py-3 px-4">
+     <div class="max-w-4xl mx-auto flex items-center justify-between gap-4 flex-wrap">
+      <div class="flex items-center gap-3"><span class="text-2xl bounce-icon">🔥</span>
+       <div>
+        <p class="font-bold text-sm md:text-base">Oferta expira em breve!</p>
+        <p class="text-xs text-gray-400">Garanta seu desconto agora</p>
+       </div>
+      </div><a href="https://pay.hotmart.com/I96345930F" target="_blank" rel="noopener noreferrer" class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-6 rounded-lg text-sm transition-colors whitespace-nowrap"> COMPRAR AGORA </a>
+     </div>
+    </div>
+   </div>
+  </div>
+  <script>
+    // Default configuration
+    const defaultConfig = {
+      product_title: 'Método Exclusivo',
+      producer_name: 'Alisson Reis',
+      price_installment: '3x de R$ 9,64',
+      price_full: 'R$ 27,00',
+      guarantee_days: '7',
+      background_color: '#0f0f23',
+      primary_color: '#22c55e',
+      text_color: '#ffffff',
+      accent_color: '#4ade80',
+      secondary_color: '#1f2937',
+      font_family: 'Poppins',
+      font_size: 16
+    };
+
+    // Fake names for purchase popups
+    const fakeNames = [
+      'Maria S.', 'João P.', 'Ana L.', 'Pedro M.', 'Carla R.',
+      'Lucas F.', 'Julia B.', 'Rafael A.', 'Fernanda C.', 'Bruno G.',
+      'Camila N.', 'Diego S.', 'Larissa M.', 'Thiago O.', 'Amanda K.'
+    ];
+
+    const fakeCities = [
+      'São Paulo', 'Rio de Janeiro', 'Belo Horizonte', 'Curitiba', 'Porto Alegre',
+      'Salvador', 'Brasília', 'Fortaleza', 'Recife', 'Manaus'
+    ];
+
+    // Show purchase popup
+    function showPurchasePopup() {
+      const popup = document.getElementById('purchase-popup');
+      const nameEl = document.getElementById('popup-name');
+      
+      const randomName = fakeNames[Math.floor(Math.random() * fakeNames.length)];
+      const randomCity = fakeCities[Math.floor(Math.random() * fakeCities.length)];
+      
+      nameEl.textContent = `${randomName} de ${randomCity}`;
+      
+      popup.classList.remove('hidden');
+      
+      setTimeout(() => {
+        popup.classList.add('hidden');
+      }, 4000);
+    }
+
+    // Show bottom banner after scroll
+    function handleScroll() {
+      const banner = document.getElementById('bottom-banner');
+      const scrollPosition = window.scrollY || document.documentElement.scrollTop;
+      
+      if (scrollPosition > 500) {
+        banner.classList.remove('hidden');
+      }
+    }
+
+    // Initialize popups and banners
+    function initMarketingElements() {
+      // Show first popup after 5 seconds
+      setTimeout(showPurchasePopup, 5000);
+      
+      // Show popups randomly every 15-30 seconds
+      setInterval(() => {
+        if (Math.random() > 0.3) {
+          showPurchasePopup();
+        }
+      }, Math.random() * 15000 + 15000);
+      
+      // Listen for scroll
+      const appWrapper = document.getElementById('app-wrapper');
+      appWrapper.addEventListener('scroll', function() {
+        const banner = document.getElementById('bottom-banner');
+        if (this.scrollTop > 500) {
+          banner.classList.remove('hidden');
+        }
+      });
+    }
+
+    // Config change handler
+    async function onConfigChange(config) {
+      const title = document.getElementById('main-title');
+      if (title) {
+        title.innerHTML = `Transforme Sua Vida com o <span class="text-gradient">${config.product_title || defaultConfig.product_title}</span>`;
+      }
+      
+      const producerName = document.getElementById('producer-name');
+      if (producerName) {
+        producerName.textContent = config.producer_name || defaultConfig.producer_name;
+      }
+      
+      const priceInstallment = document.getElementById('price-installment');
+      if (priceInstallment) {
+        const installment = config.price_installment || defaultConfig.price_installment;
+        priceInstallment.innerHTML = installment.replace(/R\$\s*[\d,]+/g, '<span class="text-green-400">$&</span>');
+      }
+      
+      const priceFull = document.getElementById('price-full');
+      if (priceFull) {
+        priceFull.textContent = config.price_full || defaultConfig.price_full;
+      }
+      
+      const guaranteeDays = document.getElementById('guarantee-days');
+      if (guaranteeDays) {
+        guaranteeDays.textContent = `${config.guarantee_days || defaultConfig.guarantee_days} Dias`;
+      }
+
+      // Apply colors
+      const primaryColor = config.primary_color || defaultConfig.primary_color;
+      const accentColor = config.accent_color || defaultConfig.accent_color;
+      
+      document.querySelectorAll('.text-green-400').forEach(el => {
+        el.style.color = primaryColor;
+      });
+      
+      document.querySelectorAll('.text-gradient').forEach(el => {
+        el.style.background = `linear-gradient(90deg, ${primaryColor}, ${accentColor})`;
+        el.style.webkitBackgroundClip = 'text';
+        el.style.webkitTextFillColor = 'transparent';
+        el.style.backgroundClip = 'text';
+      });
+
+      // Apply font
+      const fontFamily = config.font_family || defaultConfig.font_family;
+      document.body.style.fontFamily = `${fontFamily}, sans-serif`;
+
+      // Apply font size
+      const baseSize = config.font_size || defaultConfig.font_size;
+      document.body.style.fontSize = `${baseSize}px`;
+    }
+
+    // Map to capabilities
+    function mapToCapabilities(config) {
+      return {
+        recolorables: [
+          {
+            get: () => config.background_color || defaultConfig.background_color,
+            set: (value) => {
+              config.background_color = value;
+              window.elementSdk.setConfig({ background_color: value });
+            }
+          },
+          {
+            get: () => config.secondary_color || defaultConfig.secondary_color,
+            set: (value) => {
+              config.secondary_color = value;
+              window.elementSdk.setConfig({ secondary_color: value });
+            }
+          },
+          {
+            get: () => config.text_color || defaultConfig.text_color,
+            set: (value) => {
+              config.text_color = value;
+              window.elementSdk.setConfig({ text_color: value });
+            }
+          },
+          {
+            get: () => config.primary_color || defaultConfig.primary_color,
+            set: (value) => {
+              config.primary_color = value;
+              window.elementSdk.setConfig({ primary_color: value });
+            }
+          },
+          {
+            get: () => config.accent_color || defaultConfig.accent_color,
+            set: (value) => {
+              config.accent_color = value;
+              window.elementSdk.setConfig({ accent_color: value });
+            }
+          }
+        ],
+        borderables: [],
+        fontEditable: {
+          get: () => config.font_family || defaultConfig.font_family,
+          set: (value) => {
+            config.font_family = value;
+            window.elementSdk.setConfig({ font_family: value });
+          }
+        },
+        fontSizeable: {
+          get: () => config.font_size || defaultConfig.font_size,
+          set: (value) => {
+            config.font_size = value;
+            window.elementSdk.setConfig({ font_size: value });
+          }
+        }
+      };
+    }
+
+    // Map to edit panel values
+    function mapToEditPanelValues(config) {
+      return new Map([
+        ['product_title', config.product_title || defaultConfig.product_title],
+        ['producer_name', config.producer_name || defaultConfig.producer_name],
+        ['price_installment', config.price_installment || defaultConfig.price_installment],
+        ['price_full', config.price_full || defaultConfig.price_full],
+        ['guarantee_days', config.guarantee_days || defaultConfig.guarantee_days]
+      ]);
+    }
+
+    // Initialize SDK
+    if (window.elementSdk) {
+      window.elementSdk.init({
+        defaultConfig,
+        onConfigChange,
+        mapToCapabilities,
+        mapToEditPanelValues
+      });
+    }
+
+    // Initialize marketing elements
+    initMarketingElements();
+  </script>
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9d26c10cf0b732a9',t:'MTc3MTg1MDAzMi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
